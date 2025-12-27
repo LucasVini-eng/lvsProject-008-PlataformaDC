@@ -1,0 +1,24 @@
+:root{
+    --blue-dark: #111827;
+    --white: #ffffff;
+}
+
+#config-header{
+    background-color: var(--blue-dark);
+}
+
+#config-header button{
+    color: var(--white);
+}
+
+
+#banner-1 img{
+   text-align: center;
+   background-color: black;
+   height: 400px;
+   width: 2000px;
+}
+
+#banner-1{
+    background-color: black;
+}
