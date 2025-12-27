@@ -1,16 +1,22 @@
 :root{
     --blue-dark: #111827;
+    --dark-gray:#030712;
     --white: #ffffff;
 }
 
 #config-header{
-    background-color: var(--blue-dark);
+    background-color: var(--dark-gray);
 }
 
 #config-header button{
     color: var(--white);
 }
 
+#config-header img{
+    width: 15%;
+    background-color: var(--white);
+    border-radius: 15px;
+}
 
 #banner-1 img{
    text-align: center;
@@ -20,5 +26,38 @@
 }
 
 #banner-1{
+    background-color: black;
+}
+
+#banner-2 img{
+   text-align: center;
+   background-color: black;
+   height: 400px;
+   width: 2000px;
+}
+
+#banner-2{
+    background-color: black;
+}
+
+#banner-3 img{
+   text-align: center;
+   background-color: black;
+   height: 400px;
+   width: 2000px;
+}
+
+#banner-3{
+    background-color: black;
+}
+
+#banner-4 img{
+   text-align: center;
+   background-color: black;
+   height: 400px;
+   width: 2000px;
+}
+
+#banner-4{
     background-color: black;
 }
