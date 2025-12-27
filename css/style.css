@@ -15,7 +15,7 @@
 #config-header img{
     width: 60px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 #logo{
@@ -69,4 +69,5 @@
 #banner-4{
     background-color: black;
 }
+
 
