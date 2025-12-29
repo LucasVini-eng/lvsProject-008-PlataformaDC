@@ -1,7 +1,13 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --blue-dark: #111827;
     --dark-gray:#030712;
-    --white: #ffffff;
+     --white: #ffffff;
 }
 
 #config-header{
@@ -13,8 +19,8 @@
 }
 
 #config-header img{
-    width: 60px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 15px;
 }
 
@@ -22,52 +28,66 @@
     background-color: var(--dark-gray);
 }
 
-#NomeLogo{
+#NameLogo{
     margin-top: 10px;
 }
 
-#banner-1 img{
-   text-align: center;
-   background-color: black;
-   height: 400px;
-   width: 2000px;
+section {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-#banner-1{
+#banner-pmal img{
     background-color: black;
+    width: 100%;
+    height: 100%;
 }
 
-#banner-2 img{
-   text-align: center;
-   background-color: black;
-   height: 400px;
-   width: 2000px;
+#banner-pmal{
+    margin-top: 25px;
+    background-color: var(--dark-gray);
 }
 
-#banner-2{
+#banner-gcm img{
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
-#banner-3 img{
-   text-align: center;
-   background-color: black;
-   height: 400px;
-   width: 2000px;
+#banner-gcm{
+    margin-top: 25px;
+    background-color: var(--dark-gray);
 }
 
-#banner-3{
+#banner-cbmal img{
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
-#banner-4 img{
-   text-align: center;
-   background-color: black;
-   height: 400px;
-   width: 2000px;
+#banner-cbmal{
+    margin-top: 25px;
+    background-color: var(--dark-gray);
 }
 
-#banner-4{
+#banner-pcal img{
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
+#banner-pcal{
+    margin-top: 25px;
+    background-color: var(--dark-gray);
+}
 
+#banner-pmpe img{
+   background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#banner-pmpe{
+    margin-top: 25px;
+    background-color: var(--dark-gray);
+}
